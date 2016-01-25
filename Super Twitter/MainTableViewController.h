@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  MainTableViewController.h
 //  Super Twitter
 //
 //  Created by Andres Lara Aguirre on 2016-01-24.
@@ -8,9 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
+@interface MainTableViewController : UITableViewController
 
 @end
-
